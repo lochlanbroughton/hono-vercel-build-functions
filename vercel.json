@@ -11,5 +11,5 @@
       "maxDuration": 60
     }
   },
-  "buildCommand": "cp api/index.ts api/index2.ts"
+  "buildCommand": "cp ./api/index.ts ./api/index2.ts && find . -type f"
 }
