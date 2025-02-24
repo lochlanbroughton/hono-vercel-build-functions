@@ -7,8 +7,9 @@
   ],
   "functions": {
     "api/index.ts": {
-      "memory": 3009,
-      "maxDuration": 300
+      "memory": 1000,
+      "maxDuration": 60
     }
-  }
+  },
+  "buildCommand": "cp api/index.ts api/index2.ts"
 }
