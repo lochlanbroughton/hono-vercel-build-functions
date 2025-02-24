@@ -7,8 +7,13 @@
   ],
   "functions": {
     "api/index.ts": {
-      "memory": 3009,
-      "maxDuration": 300
+      "memory": 1000,
+      "maxDuration": 60
+    },
+    "api/index2.ts": {
+      "memory": 1000,
+      "maxDuration": 60
     }
-  }
+  },
+  "buildCommand": "echo 'Starting buildCommand' && cp ./api/index.ts ./api/index2.ts && find ./api -type f"
 }
