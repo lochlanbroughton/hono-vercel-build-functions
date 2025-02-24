@@ -9,7 +9,11 @@
     "api/index.ts": {
       "memory": 1000,
       "maxDuration": 60
+    },
+    "api/index2.ts": {
+      "memory": 1000,
+      "maxDuration": 60
     }
   },
-  "buildCommand": "cp ./api/index.ts ./api/index2.ts && find . -type f"
+  "buildCommand": "cp ./api/index.ts ./api/index2.ts && find ./api -type f"
 }
