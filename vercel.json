@@ -15,5 +15,5 @@
       "maxDuration": 60
     }
   },
-  "buildCommand": "cp ./api/index.ts ./api/index2.ts && find ./api -type f"
+  "buildCommand": "echo 'Starting buildCommand' && cp ./api/index.ts ./api/index2.ts && find ./api -type f"
 }
